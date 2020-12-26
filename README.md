@@ -1,26 +1,5 @@
-<p align="center"><img src="https://i.imgur.com/DIpuNTI.jpg"></p>
 
-<p align="center">
-<img src="https://img.shields.io/badge/Python-3-brightgreen.svg?style=plastic">
-<img src="https://img.shields.io/badge/Docker-✔-blue.svg?style=plastic">
-</p>
-
-<p align="center">
-  <a href="https://twitter.com/thewhiteh4t"><b>Twitter</b></a>
-  <span> - </span>
-  <a href="https://t.me/thewhiteh4t"><b>Telegram</b></a>
-  <span> - </span>
-  <a href="https://thewhiteh4t.github.io"><b>thewhiteh4t's Blog</b></a>
-</p>
-
-<p align="center">
-  <br>
-  <b>Available in</b>
-  <br>
-  <img src="https://i.imgur.com/1wJVDV5.png">
-</p>
-
-Concept behind Seeker is simple, just like we host phishing pages to get credentials why not host a fake page that requests your location like many popular location based websites. Read more on <a href="https://thewhiteh4t.github.io"> thewhiteh4t's Blog </a>.Seeker Hosts a fake website on **In Built PHP Server** and uses **Serveo** to generate a link which we will forward to the target, website asks for Location Permission and if the target allows it, we can get :
+Concept behind Seeker is simple, just like we host phishing pages to get credentials why not host a fake page that requests your location like many popular location based websites. Seeker Hosts a fake website on **In Built PHP Server** and uses **Serveo** to generate a link which we will forward to the target, website asks for Location Permission and if the target allows it, we can get :
 
 * Longitude
 * Latitude
@@ -163,13 +142,5 @@ docker run --rm -t --net ngroknet --name ngrok wernight/ngrok ngrok http seeker:
 ## Known Problems
 
 * Services like Serveo and Ngrok are banned in some countries such as Russia etc., so if it's banned in your country you may not get a URL, if not then first READ CLOSED ISSUES, if your problem is not listed, create a new issue.
-
-## Demo
-
-| Demo | Link |
-|-|-|
-| WhatsApp Template Demo | https://www.youtube.com/watch?v=dG0HkQmF4-A |
-| What's new in v1.1.9 | https://www.youtube.com/watch?v=FEyAPjkJFrk |
-| First Version | https://www.youtube.com/watch?v=ggUGPq4cjSM |
 
 
