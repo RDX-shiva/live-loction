@@ -57,8 +57,8 @@ def banner():
  /  ___/_/ __ \_/ __ \ |  |/ /_/ __ \\_  __ \
  \___ \ \  ___/\  ___/ |    < \  ___/ |  | \/
 /____  > \___  >\___  >|__|_ \ \___  >|__|
-	 \/      \/     \/      \/     \/        ''' + W)
-	print('\n' + G + '[>]' + C + ' Created By : ' + W + 'thewhiteh4t')
+     \/      \/     \/      \/     \/        ''' + W)
+	print('\n' + G + '[>]' + C + ' Created By : ' + W + 'RDX-shiva')
 	print(G + '[>]' + C + ' Version    : ' + W + version + '\n')
 
 def ver_check():
